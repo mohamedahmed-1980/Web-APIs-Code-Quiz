@@ -11,3 +11,7 @@
 - I answer a question incorrectly, THEN time is subtracted from the clock
 - all questions are answered or the timer reaches 0 ,the game is over
 - the game is over, I can save my initials and score
+
+[deployed git io ](https://mohamedahmed-1980.github.io/Web-APIs-Code-Quiz/) <br>
+
+[Github repository](https://github.com/mohamedahmed-1980/Web-APIs-Code-Quiz.git)
