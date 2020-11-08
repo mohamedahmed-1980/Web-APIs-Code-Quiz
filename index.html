@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+
+<div class="grid"> <!-- the start of the grid div -->
+
+    <div id="score"><span>SCORE</span><br>0</div>
+    <div class="time" id="timer">60</div>
+
+    <div id="quiz">
+        <h1>Quiz</h1>
+        <hr style="margin-bottom:20px;">
+
+        
+        <div id="question">
+            <p id="question-title"></p>
+            <div class="buttons">
+                <button id="btn0"></button>
+                <button id="btn1"></button>
+                <button id="btn2"></button>
+                <button id="btn3"></button>
+            </div>
+        </div>
+
+
+
+        <form id="form" style="display: none;">
+            <label for="fname">Email</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">score:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <input id="input" type="submit" value="Submit">
+          </form> 
+          <p id="message"></p>
+    </div>
+    <hr style="margin-top:50px;">
+<footer>
+   
+    <p id="progress"> </p> 
+
+    <button id="startBtn" onclick="start()" >start</button>
+    
+</footer>
+
+    
+</div> <!-- the end of the grid div -->
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
